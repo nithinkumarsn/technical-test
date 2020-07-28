@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import BoxModel from './components/BoxModel'
 
 function App() {
   return (
     <div className="App">
-      <p>this is for test</p>
+      <h1 className='App-header'>Nvest Ticket Generator</h1>
+      <BoxModel/>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  background-color: #2bb65b;
 }
 
 .App-logo {
@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,63 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.box-model{
+   /* background-color:#f0e6e6; */
+  display:inline-block;
+  width: 303px;
+  margin-left: 20px;
+  
+}
+
+.box-model > button{
+  padding: 40px;
+  font-size: 30px;
+  background: #f0e6e6;
+  box-shadow: inset -20px -20px 60px #ccc4c4, 
+              inset 20px 20px 60px #ffffff;
+
+}
+
+.tc{
+  text-align: center;
+  color: #2b42b6;
+  margin-top: auto;
+}
+
+#resno{
+  text-align: center;
+  font-size: 32px;
+  padding: 2px;
+  margin: 0px;
+  color: red;
+}
+
+#addbtn{
+  padding: 13px;
+  text-align: center;
+  font-size: 21px;
+  width: 303px;
+  
+}
+
+.tc2{
+  margin: 0px;
+  text-align: center;
+}
+
+.main-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.tickets{
+  display: block;
+  padding: 10px;
+  text-align: center;
+  
 }
